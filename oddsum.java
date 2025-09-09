@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class oddsum {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter the size of array:");
+        int size = s.nextInt();
+        int a[] = new int[size];
+        System.out.println("enter the values");
+        for (int i = 0; i < a.length; i++) {
+            a[i] = s.nextInt();
+        }
+        
+        int sum = 0;
+        for (int i = 0; i <a.length; i++) {
+            if(a[i]%2!=0){
+                sum = sum+a[i];
+            }
+        }
+        System.out.println("the sum of odd values in array is "+sum);
+    }
+
+}
