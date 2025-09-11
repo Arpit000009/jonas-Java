@@ -20,6 +20,6 @@ public class smallest {
             }
         }
         System.out.println("smallest element in array is : "+smallest);
-
+        s.close();
     }
 }
