@@ -18,6 +18,7 @@ public class largr {
             }
         }
         System.out.println(largest);
+        s.close();
     }
 
 }

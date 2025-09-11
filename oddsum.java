@@ -18,6 +18,7 @@ public class oddsum {
             }
         }
         System.out.println("the sum of odd values in array is "+sum);
+        s.close();
     }
 
 }

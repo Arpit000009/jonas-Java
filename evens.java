@@ -16,6 +16,7 @@ public class evens {
                 System.out.println(a[i]);
             }
         }
+        s.close();
     }
 
 }
