@@ -1,4 +1,6 @@
-// User function Template for Java
+package gfg_barbosa;
+import java.util.Scanner;
+
 class Solution {
     static long fibSum(long N) {
         // code here
@@ -18,5 +20,10 @@ class Solution {
             sum = (sum + two) % 1000000007;
         }
         return sum;
+    }
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+       System.out.println(fibSum(n));
     }
 }
