@@ -22,5 +22,6 @@ class vandeBharat extends train{
 class vandeBharatDreiver{
     public static void main(String[] args) {
         vandeBharat v1 = new vandeBharat("electric", 150, "veer", 10);
+        System.out.println(v1.name);
     }
 }

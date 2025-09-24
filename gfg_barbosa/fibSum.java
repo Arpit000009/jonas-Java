@@ -25,5 +25,6 @@ class Solution {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
        System.out.println(fibSum(n));
+       s.close();
     }
 }

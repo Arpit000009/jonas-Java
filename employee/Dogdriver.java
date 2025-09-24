@@ -5,5 +5,6 @@ public class Dogdriver {
         Dog d = new Dog(2);
         Dog d1 = new Dog(2);
         System.out.println(d.age);
+        System.out.println(d1.age);
     }
 }
