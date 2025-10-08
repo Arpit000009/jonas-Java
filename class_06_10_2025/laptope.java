@@ -1,5 +1,7 @@
 package class_06_10_2025;
 
+import java.util.Objects;
+
 public class laptope {
     String brand;
     int price;
@@ -20,5 +22,9 @@ public class laptope {
         laptope m = (laptope)o;
 
         return this.brand == m.brand && this.price == m.price && this.processor==m.processor && this.model == m.model;
+    }
+    @Override
+    public int hashCode(){
+        return Objects.hash(brand,price,processor,model);
     }
 }

@@ -6,5 +6,7 @@ public class lapetope {
         laptope l2 = new laptope("acer",90000,"octa  core","nitro5");
         System.out.println(l);
         System.out.println(l.equals(l2));
+        System.out.println(l.hashCode());
+        System.out.println(l2.hashCode());
     }
 }
