@@ -1,4 +1,4 @@
-package module3.class_17_10_2025;
+package module3.class_17_10_2025.one;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -58,5 +58,20 @@ public class ArrayListdemo {
             System.out.println(friutArray[i]);
             
         }
+
+        //13.clear()   list_name.clear();
+
+        //14.addAll(collection<!extends>c)
+
+        //15.removeAll(coloection)
+
+        //16.retailAll         last_list.retailAll(new_list)
+
+        for(String st:fruits){
+            System.out.print(st + " ");
+        }
+        System.out.println();
+
+        fruits.forEach(ref-> System.out.print(ref+" "));
     }
 }
