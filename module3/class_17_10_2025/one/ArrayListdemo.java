@@ -73,5 +73,7 @@ public class ArrayListdemo {
         System.out.println();
 
         fruits.forEach(ref-> System.out.print(ref+" "));
+
+        
     }
 }
