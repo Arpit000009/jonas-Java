@@ -1,7 +1,5 @@
 package module3.class_15_10_2025;
 
-import initial.Student;
-
 class studentDb{
     int studentId;
     String studentName;

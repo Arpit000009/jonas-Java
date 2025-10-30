@@ -1,7 +1,6 @@
 package module3.j;
 
 import java.io.FileInputStream;
-import java.io.ObjectInput;
 import java.io.ObjectInputStream;
 
 public class Deserialization {

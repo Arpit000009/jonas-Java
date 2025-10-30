@@ -1,13 +1,13 @@
 package module3.class_27_10_2025;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
-//visit website
-//view history
-//clear
 
-//utilize vector method
-//custom exception
-//utilize all methods liskedhashset
+class invalidUrl extends RuntimeException{
+    public String getMessage(){
+        return "invalid URL";
+    }
+}
+
 
 public class browser {
     public static void main(String[] args) {
@@ -26,13 +26,21 @@ public class browser {
             switch(choice){
                 case 1:
                 System.out.println("enter website url: ");
+                try{
                 String url = sc.nextLine();
+                if(url.isEmpty()){
+                    throw new invalidUrl();
+                }
+            
                 if(history.add(url)){
                     System.out.println("visited: " + url);
                 }
                 else{
                     System.out.println("you already visited this site");
                 }
+            } catch(invalidUrl u){
+                System.out.println(u.getMessage());
+            }
                 break;
                 case 2:
                 if(history.isEmpty()){

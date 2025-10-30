@@ -28,8 +28,7 @@ public class bookInventoryMenu {
                 System.out.println("enter author");
                 String author = sc.nextLine();
                 System.out.println("enter price");
-                double price = sc.nextDouble();
-                book newBook = new book(id, title, author, choice);
+                    book newBook = new book(id, title, author, choice);
 
                 inventory.add(newBook);
                 System.out.println("book added sucessfully");

@@ -1,6 +1,5 @@
 package module3.class_17_10_2025.one;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ArrayListdemo {

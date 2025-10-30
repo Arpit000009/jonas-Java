@@ -5,15 +5,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
-import initial.Student;
-
 public class serializable {
     public static void main(String[] args) {
         student s = new student(1,"Arpit");
         try{
             FileOutputStream f = new FileOutputStream("E:\\java\\module3\\j\\arpit.txt");
-            ObjectOutputStream o = new ObjectOutputStream(f);
-            o.writeObject(s);
+            try (ObjectOutputStream o = new ObjectOutputStream(f)) {
+                o.writeObject(s);
+            }
         }catch(FileNotFoundException e){
             e.printStackTrace();
         }

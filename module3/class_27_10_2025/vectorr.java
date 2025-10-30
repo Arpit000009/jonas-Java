@@ -1,11 +1,9 @@
 package module3.class_27_10_2025;
-
 import java.util.Vector;
-import java.util.Scanner;
 
 public class vectorr {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        
         Vector<Integer> vec = new Vector<>();
        
 
@@ -24,6 +22,7 @@ public class vectorr {
         vec.add(1,1);
         System.out.println("\nsize of vector: "+vec.size());
         System.out.println("capacity of vector: "+vec.capacity());
+        vec.removeElement(40);
 
         for (int i = 0; i < vec.size(); i++) {
             System.out.print(vec.get(i) + " ");

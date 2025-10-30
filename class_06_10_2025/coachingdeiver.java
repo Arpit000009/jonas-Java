@@ -6,10 +6,7 @@ public class coachingdeiver {
         // System.out.println(c1.toString());
         // coaching c2 = new coaching(63000, 8000, "jSpider", 40);
 
-        // System.out.println(c1.equals(c2));
-        // System.out.println(c1.hashCode());
-        // System.out.println(c2.hashCode());
-        String s = "h1";
+        
     }
     
 }
