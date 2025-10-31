@@ -16,7 +16,10 @@ public class Dequeuedemo {
 
         dq.removeFirst();
         dq.removeLast();
-        dq.remove();
+        
+        System.out.println(dq.size());
+        System.out.println(dq.isEmpty());
+        
         System.out.println("dequeue after removal"+ dq);
     }
 }
