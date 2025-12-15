@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class employeeManagement {
 
-    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter (1 for manager,2 for developer,3 for tester): ");
